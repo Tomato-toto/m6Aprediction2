@@ -1,0 +1,12 @@
+Title: m6Aprediction
+Package: m6APrediction
+Version:1.0.0
+Authors@R: 
+    person("Xinyuan", "Hu", , "Xinyuan.Hu@student.xjtlu.edu.cn", role = c("aut", "cre"))
+Description:`m6APrediction` is an R package designed for predicting m6A modification status. This tool utilizes machine learning models, specifically random forest algorithms, to analyze gene expression data and predict the presence or absence of m6A modifications. The package aims to assist bioinformatics researchers and data scientists in quickly implementing m6A predictions.
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports: randomForest,roxygen2
+Depends: R (>= 3.5.0)
+License: MIT
